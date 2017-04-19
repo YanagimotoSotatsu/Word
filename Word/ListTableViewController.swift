@@ -29,7 +29,7 @@ class ListTableTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool){
         
         super.viewWillAppear(true)
-        if saveData.array(forKey: "WORD") != nil{
+        if saveData.array(forKey: "WORD") != nil {
             wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
         }
         tableView.reloadData()
@@ -51,7 +51,7 @@ class ListTableTableViewController: UITableViewController {
         return wordArray.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt  indexPath: IndexPath) -> UITableViewCell{
+    override func tableView(_ tableView: UITableView, cellForRowAt  indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             as! ListTableViewCell
         

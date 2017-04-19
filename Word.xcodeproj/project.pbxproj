@@ -14,6 +14,18 @@
 		DD9C87001EA7C9D100652B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9C86FE1EA7C9D100652B3B /* LaunchScreen.storyboard */; };
 		DD9C870B1EA7C9D100652B3B /* WordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C870A1EA7C9D100652B3B /* WordTests.swift */; };
 		DD9C87161EA7C9D100652B3B /* WordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87151EA7C9D100652B3B /* WordUITests.swift */; };
+		DD9C872B1EA7CA0400652B3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C87251EA7CA0400652B3B /* Default-568h@2x.png */; };
+		DD9C872C1EA7CA0400652B3B /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C87261EA7CA0400652B3B /* Default-667h@2x.png */; };
+		DD9C872D1EA7CA0400652B3B /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C87271EA7CA0400652B3B /* Default-736h@3x.png */; };
+		DD9C872E1EA7CA0400652B3B /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C87281EA7CA0400652B3B /* fin.png */; };
+		DD9C872F1EA7CA0400652B3B /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C87291EA7CA0400652B3B /* title_logo.png */; };
+		DD9C87301EA7CA0400652B3B /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9C872A1EA7CA0400652B3B /* word_blank.png */; };
+		DD9C87321EA7CD6C00652B3B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87311EA7CD6C00652B3B /* QuestionViewController.swift */; };
+		DD9C87341EA7CD9900652B3B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87331EA7CD9900652B3B /* FinishViewController.swift */; };
+		DD9C87361EA7CDB300652B3B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87351EA7CDB300652B3B /* AddViewController.swift */; };
+		DD9C87381EA7CDDE00652B3B /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */; };
+		DD9C873B1EA7D21400652B3B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */; };
+		DD9C873C1EA7D21400652B3B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		DD9C87111EA7C9D100652B3B /* WordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9C87151EA7C9D100652B3B /* WordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordUITests.swift; sourceTree = "<group>"; };
 		DD9C87171EA7C9D100652B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9C87251EA7CA0400652B3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD9C87261EA7CA0400652B3B /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		DD9C87271EA7CA0400652B3B /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		DD9C87281EA7CA0400652B3B /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		DD9C87291EA7CA0400652B3B /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		DD9C872A1EA7CA0400652B3B /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		DD9C87311EA7CD6C00652B3B /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		DD9C87331EA7CD9900652B3B /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		DD9C87351EA7CDB300652B3B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +121,19 @@
 		DD9C86F41EA7C9D100652B3B /* Word */ = {
 			isa = PBXGroup;
 			children = (
+				DD9C87231EA7CA0400652B3B /* WordList素材 */,
 				DD9C86F51EA7C9D100652B3B /* AppDelegate.swift */,
 				DD9C86F71EA7C9D100652B3B /* ViewController.swift */,
 				DD9C86F91EA7C9D100652B3B /* Main.storyboard */,
 				DD9C86FC1EA7C9D100652B3B /* Assets.xcassets */,
 				DD9C86FE1EA7C9D100652B3B /* LaunchScreen.storyboard */,
 				DD9C87011EA7C9D100652B3B /* Info.plist */,
+				DD9C87311EA7CD6C00652B3B /* QuestionViewController.swift */,
+				DD9C87331EA7CD9900652B3B /* FinishViewController.swift */,
+				DD9C87351EA7CDB300652B3B /* AddViewController.swift */,
+				DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */,
+				DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */,
+				DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */,
 			);
 			path = Word;
 			sourceTree = "<group>";
@@ -123,6 +154,27 @@
 				DD9C87171EA7C9D100652B3B /* Info.plist */,
 			);
 			path = WordUITests;
+			sourceTree = "<group>";
+		};
+		DD9C87231EA7CA0400652B3B /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C87241EA7CA0400652B3B /* Defaults */,
+				DD9C87281EA7CA0400652B3B /* fin.png */,
+				DD9C87291EA7CA0400652B3B /* title_logo.png */,
+				DD9C872A1EA7CA0400652B3B /* word_blank.png */,
+			);
+			path = "WordList素材";
+			sourceTree = "<group>";
+		};
+		DD9C87241EA7CA0400652B3B /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C87251EA7CA0400652B3B /* Default-568h@2x.png */,
+				DD9C87261EA7CA0400652B3B /* Default-667h@2x.png */,
+				DD9C87271EA7CA0400652B3B /* Default-736h@3x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +285,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9C87001EA7C9D100652B3B /* LaunchScreen.storyboard in Resources */,
+				DD9C872E1EA7CA0400652B3B /* fin.png in Resources */,
+				DD9C872B1EA7CA0400652B3B /* Default-568h@2x.png in Resources */,
+				DD9C872F1EA7CA0400652B3B /* title_logo.png in Resources */,
 				DD9C86FD1EA7C9D100652B3B /* Assets.xcassets in Resources */,
+				DD9C87301EA7CA0400652B3B /* word_blank.png in Resources */,
 				DD9C86FB1EA7C9D100652B3B /* Main.storyboard in Resources */,
+				DD9C872C1EA7CA0400652B3B /* Default-667h@2x.png in Resources */,
+				DD9C872D1EA7CA0400652B3B /* Default-736h@3x.png in Resources */,
+				DD9C873C1EA7D21400652B3B /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9C873B1EA7D21400652B3B /* ListTableViewCell.swift in Sources */,
+				DD9C87361EA7CDB300652B3B /* AddViewController.swift in Sources */,
 				DD9C86F81EA7C9D100652B3B /* ViewController.swift in Sources */,
+				DD9C87341EA7CD9900652B3B /* FinishViewController.swift in Sources */,
+				DD9C87381EA7CDDE00652B3B /* ListTableViewController.swift in Sources */,
 				DD9C86F61EA7C9D100652B3B /* AppDelegate.swift in Sources */,
+				DD9C87321EA7CD6C00652B3B /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
