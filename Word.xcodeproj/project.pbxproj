@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6CE3EA1EAA50A2007BB91F /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CE3E81EAA50A2007BB91F /* ListTableViewCell.swift */; };
+		DD6CE3EB1EAA50A2007BB91F /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6CE3E91EAA50A2007BB91F /* ListTableViewCell.xib */; };
 		DD9C86F61EA7C9D100652B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C86F51EA7C9D100652B3B /* AppDelegate.swift */; };
 		DD9C86F81EA7C9D100652B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C86F71EA7C9D100652B3B /* ViewController.swift */; };
 		DD9C86FB1EA7C9D100652B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9C86F91EA7C9D100652B3B /* Main.storyboard */; };
@@ -24,8 +26,6 @@
 		DD9C87341EA7CD9900652B3B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87331EA7CD9900652B3B /* FinishViewController.swift */; };
 		DD9C87361EA7CDB300652B3B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87351EA7CDB300652B3B /* AddViewController.swift */; };
 		DD9C87381EA7CDDE00652B3B /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */; };
-		DD9C873B1EA7D21400652B3B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */; };
-		DD9C873C1EA7D21400652B3B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD6CE3E81EAA50A2007BB91F /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		DD6CE3E91EAA50A2007BB91F /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		DD9C86F21EA7C9D100652B3B /* Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Word.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9C86F51EA7C9D100652B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9C86F71EA7C9D100652B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +71,6 @@
 		DD9C87331EA7CD9900652B3B /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
 		DD9C87351EA7CDB300652B3B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
-		DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +132,8 @@
 				DD9C87331EA7CD9900652B3B /* FinishViewController.swift */,
 				DD9C87351EA7CDB300652B3B /* AddViewController.swift */,
 				DD9C87371EA7CDDE00652B3B /* ListTableViewController.swift */,
-				DD9C87391EA7D21400652B3B /* ListTableViewCell.swift */,
-				DD9C873A1EA7D21400652B3B /* ListTableViewCell.xib */,
+				DD6CE3E81EAA50A2007BB91F /* ListTableViewCell.swift */,
+				DD6CE3E91EAA50A2007BB91F /* ListTableViewCell.xib */,
 			);
 			path = Word;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				DD9C86FB1EA7C9D100652B3B /* Main.storyboard in Resources */,
 				DD9C872C1EA7CA0400652B3B /* Default-667h@2x.png in Resources */,
 				DD9C872D1EA7CA0400652B3B /* Default-736h@3x.png in Resources */,
-				DD9C873C1EA7D21400652B3B /* ListTableViewCell.xib in Resources */,
+				DD6CE3EB1EAA50A2007BB91F /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD9C873B1EA7D21400652B3B /* ListTableViewCell.swift in Sources */,
+				DD6CE3EA1EAA50A2007BB91F /* ListTableViewCell.swift in Sources */,
 				DD9C87361EA7CDB300652B3B /* AddViewController.swift in Sources */,
 				DD9C86F81EA7C9D100652B3B /* ViewController.swift in Sources */,
 				DD9C87341EA7CD9900652B3B /* FinishViewController.swift in Sources */,
@@ -569,6 +569,7 @@
 				DD9C871C1EA7C9D100652B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9C871D1EA7C9D100652B3B /* Build configuration list for PBXNativeTarget "WordTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +578,7 @@
 				DD9C871F1EA7C9D100652B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9C87201EA7C9D100652B3B /* Build configuration list for PBXNativeTarget "WordUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +587,7 @@
 				DD9C87221EA7C9D100652B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
