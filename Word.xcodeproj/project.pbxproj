@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD6CE3EA1EAA50A2007BB91F /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CE3E81EAA50A2007BB91F /* ListTableViewCell.swift */; };
 		DD6CE3EB1EAA50A2007BB91F /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6CE3E91EAA50A2007BB91F /* ListTableViewCell.xib */; };
+		DD6CE3ED1EAA5B6A007BB91F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6CE3EC1EAA5B6A007BB91F /* icon.png */; };
 		DD9C86F61EA7C9D100652B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C86F51EA7C9D100652B3B /* AppDelegate.swift */; };
 		DD9C86F81EA7C9D100652B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C86F71EA7C9D100652B3B /* ViewController.swift */; };
 		DD9C86FB1EA7C9D100652B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9C86F91EA7C9D100652B3B /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		DD6CE3E81EAA50A2007BB91F /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		DD6CE3E91EAA50A2007BB91F /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		DD6CE3EC1EAA5B6A007BB91F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		DD9C86F21EA7C9D100652B3B /* Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Word.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9C86F51EA7C9D100652B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9C86F71EA7C9D100652B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		DD9C87231EA7CA0400652B3B /* WordList素材 */ = {
 			isa = PBXGroup;
 			children = (
+				DD6CE3EC1EAA5B6A007BB91F /* icon.png */,
 				DD9C87241EA7CA0400652B3B /* Defaults */,
 				DD9C87281EA7CA0400652B3B /* fin.png */,
 				DD9C87291EA7CA0400652B3B /* title_logo.png */,
@@ -290,6 +293,7 @@
 				DD9C872F1EA7CA0400652B3B /* title_logo.png in Resources */,
 				DD9C86FD1EA7C9D100652B3B /* Assets.xcassets in Resources */,
 				DD9C87301EA7CA0400652B3B /* word_blank.png in Resources */,
+				DD6CE3ED1EAA5B6A007BB91F /* icon.png in Resources */,
 				DD9C86FB1EA7C9D100652B3B /* Main.storyboard in Resources */,
 				DD9C872C1EA7CA0400652B3B /* Default-667h@2x.png in Resources */,
 				DD9C872D1EA7CA0400652B3B /* Default-736h@3x.png in Resources */,
